@@ -25,10 +25,10 @@ export default function App() {
         }}
       >
         {[
-          { name: "Aabbou_Overkapping", img: "/public/overkapping.png" },
-          { name: "Kabschuur", img: "/public/kabchir.png" },
-          { name: "Platak", img: "/public/Platak.png" },
-          { name: "Zadeldak", img: "/public/Zadeldak.png" },
+          { name: "Aabbou_Overkapping", img: "/overkapping.png" },
+          { name: "Kabschuur", img: "/kabchir.png" },
+          { name: "Platak", img: "/Platak.png" },
+          { name: "Zadeldak", img: "/Zadeldak.png" },
         ].map((item) => (
           <button
             key={item.name}
